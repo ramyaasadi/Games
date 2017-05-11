@@ -1,0 +1,253 @@
+body {
+    background: #e8e6ce;
+    margin: 20px;
+    color: #000;
+    font-family: "Trebuchet MS", Arial, Verdana, sans-serif;
+}
+
+/* LINKS */
+a { color: #0084ff; }
+a:hover { color: #0069cb; }
+
+/* MAINFRAME */
+#frame {
+    background: #fff;
+    padding: 1px;
+    position: relative;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+#menu {
+    position: absolute;
+    width: 185px;
+    background: #f8f7ea;
+    -webkit-border-radius: 0 0 0 10px;
+    -moz-border-radius: 0 0 0 10px;
+    border-radius: 0 0 0 10px;
+    min-height: 600px;
+    z-index: 4;
+}
+    #menu h4 {
+        background: #ccf4ff;
+        border: 1px solid #fff;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        margin: 10px;
+        font-weight: normal;
+        font-size: 10pt;
+        padding: 2px 5px;
+    }
+    #menu p.sec {
+        padding: 0 0 0 10px;
+        font-size: 10pt;
+        color: #736a57;
+        margin-bottom: 10px;
+    }
+#body_holder {
+    padding-left: 185px;
+    min-height: 850px;
+    z-index: 4;
+}
+#body { padding: 20px; }
+#header {
+    position: relative;
+    height: 90px;
+    z-index: 5;
+    background: #0f50a5 url(/admin/interface/hdbg.png) no-repeat top left;
+    -webkit-border-radius: 10px 10px 0 0;
+    -moz-border-radius: 10px 10px 0 0;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 1px;
+}
+
+/* HEADER PANELS */
+.hdpn {
+    background: rgba(255, 255, 255, 0.90);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    width: 175px;
+    height: 59px;
+    border: 2px solid #8db4d5;
+    font-family: Tahoma, Verdana, Arial, sans-serif;
+    font-size: 8pt;
+    padding: 3px 5px;
+}
+    .hdpn em { font-style: normal; font-size: 7pt; }
+#header .siteinfo, #header .admininfo {
+    position: absolute;
+    top: 10px;
+    right: 210px;
+}
+#header .admininfo { right: 10px; }
+
+p.copy {
+    padding-top: 5px;
+    font-size: 9pt;
+    color: #544c37;
+}
+    p.copy strong { color: #000; }
+    p.copy a { text-decoration: none; color: #ff6c00;}
+    p.copy a:hover { text-decoration: underline; }
+
+p.ss {
+    line-height: 100%;
+    font-size: 8pt;
+    font-family: Tahoma, Verdana, Arial, sans-serif;
+    padding-left: 5px;
+}
+#body h2, #body h3 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: normal;
+    line-height: 100%;
+    font-size: 16pt;
+    margin-bottom: 10px;
+}
+#body h3 {
+    font-size: 13pt;
+    color: #002d93;
+    margin: 10px 0 0 0;
+}
+
+ul.snav {
+    list-style: none;
+    height: 22px;
+    padding-left: 2px;
+    border-bottom: 1px solid #002d93;
+}
+    ul.snav li {
+        float: left;
+        margin-right: 3px;
+    }
+    ul.snav li a {
+        background: #697ba5;
+        color: #fff;
+        text-decoration: none;
+        -webkit-border-radius: 5px 5px 0 0;
+        -moz-border-radius: 5px 5px 0 0;
+        border-radius: 5px 5px 0 0;
+        border-bottom: none;
+        font-size: 8pt;
+        font-family: Tahoma, Verdana, Arial, sans-serif;
+        padding: 4px 7px;
+    }
+    ul.snav li a.sel { background: #002d93; }
+    ul.snav li a:hover {
+        border: 1px inset #697ba5;
+        border-bottom: none;
+        color: #d2d4e2;
+        padding: 3px 6px;
+    }
+    ul.snav li a em {
+    	font-style: normal;
+    	font-weight: bold;
+    	color: #000;
+    	background: #fff;
+    	padding: 0 3px;
+    	-webkit-border-radius: 2px;
+        -moz-border-radius: 2px;
+        border-radius: 2px;
+    }
+    ul.snav li.ss a { background: #a65a5a; }
+    ul.snav li.ss a.sel { background: #800000; }
+    ul.snav li.ss a:hover { border: 1px inset #800000; }
+table.std {
+    color: #000;
+    font-size: 9pt;
+    line-height: 120%;
+}
+    table.std th {
+        font-size: 8pt;
+        font-family: Tahoma, Verdana, Arial, sans-serif;
+        color: #555;
+        font-weight: normal;
+        text-align: left;
+    }
+    table.std tr.even { background: #f8f8f2; }
+    table.std tr.even:hover { background: #edecdb; }
+    table.std tr:hover { background: #f4f3e1;}
+    table.std h5 {
+    	padding-top: 10px;
+    	font-size: 11pt;
+    	margin: 0;
+    }
+p.legend, p.desc {
+    margin-top: 20px;
+    font-size: 8pt;
+    font-family: Tahoma, Verdana, Arial, sans-serif;
+}
+p.desc { margin: 0; }
+
+table.std ul { margin-left: 20px;}
+textarea.std, input.in, select.sl {
+    width: 95%;
+    font-size: 10pt;
+    border: 1px inset #ddd;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    padding: 2px 5px;
+    font-family: "Trebuchet MS", Verdana, Ariel, sans-serif;
+    color: #555;
+}
+textarea.std:hover, input.in:hover, select.sl:hover {
+    border-color: #aaa;
+    color: #000;
+}
+input.bt {
+    font-size: 10pt;
+    border: 1px outset #ddd;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 2px 5px;
+    font-family: "Trebuchet MS", Verdana, Ariel, sans-serif;
+    font-weight: bold;
+    background: #98beca url(/admin/interface/admin_bt.gif) repeat-x top;
+    color: #000;
+}
+input.bt:hover { background: #efffff url(/admin/interface/admin_bt.gif) repeat-x bottom; }
+hr {
+    border: none;
+    border-top: 1px dotted #555;
+    background: none;
+}
+
+.hide {
+	display: none;
+}
+.show {
+	display: block;
+}
+
+/* TABLE */
+table.simple {
+	font-family: Tahoma, Verdana, Arial, sans-serif;
+	font-size: 8pt;
+}
+table.simple th {
+	background: #ccf4ff;
+	text-align: left;
+	font-size: 10pt;
+	color: #000;
+	font-family: "Trebuchet MS", Arial, Verdana, sans-serif;
+	border-bottom: 1px solid #aaa;
+}
+table.simple th.veven {
+	border-left: 1px solid #aaa;
+	border-right: 1px solid #aaa;
+	background-color: #dcf7ff;
+}
+table.simple td {
+	border-bottom: 1px solid #aaa;
+}
+table.simple td.veven {
+	border-left: 1px solid #aaa;
+	border-right: 1px solid #aaa;
+}
+table.simple tr.even {
+	background-color: #f7f5ef;
+}
+table.simple tr.even td.veven { background-color: #fefdf5; }

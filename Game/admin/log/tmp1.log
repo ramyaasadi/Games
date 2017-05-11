@@ -1,0 +1,137 @@
+
+[Thu, 06 Aug 2015 12:45:13 -0600] ID: 3155
+[Thu, 06 Aug 2015 12:45:13 -0600] Array
+(
+    [id] => 5015
+    [parent] => 5008
+    [type] => 10
+    [title] => Dress Barn - Myrtle Beach
+    [code] => DBO0873
+    [client_code] => 0873
+    [fein] => 060812960
+    [address1] => Myrtle Beach Factory Stores
+    [address2] => 4633 Factory Store Boulevard, Suite B180
+    [city] => Myrtle Beach
+    [state] => SC
+    [zip] => 29579
+    [phone] => (551) 777-6700
+    [work_status_fax] => Patricia.Roughgarden@AscenaRetail.com
+    [org_type] => 2
+    [corporate_location] => 1796
+    [nature_of_business] => Family Clothing Store
+    [distribution_mode] => 3
+    [epdf_froi] => 1
+    [send_to_custom_state] => 0
+    [custom_state_field] => employer_location_state
+    [custom_froi_state] => 
+    [test_email] => ryan@claimwire.com
+    [test_fax] => 
+    [test_ftp] => 
+    [test_ftp_user] => 
+    [test_ftp_pass] => 
+    [smtp_config_id] => 6
+    [mail_config_id] => 23
+    [froi_link_mail_config_id] => 22
+    [batch_email] => 1
+    [subsequent_mail_config_id] => 0
+    [batch_mail_config_id] => 39
+    [batch_subsequent_mail_config_id] => 31
+    [status_upon_import] => 1
+    [imported_timestamp] => 0000-00-00 00:00:00
+    [notes] => 
+    [current_policy_number] => LDC4042557
+    [assigned_phone_number] => 855-296-6116
+    [date_added] => 2015-07-29 04:16:28
+    [provider_notice_notes] => 
+    [mask_ssn] => FOUR
+    [sic] => 5621
+    [naics] => 44814001
+    [anual_avr_employees] => 
+    [total_empl_hours_last_year] => 
+    [speek_nurse_required] => 0
+    [reports_url] => 
+    [report_conf] => {"get_claim_billing_info_from":"tpa","sftp":{"upload_claim_data":"inherit","upload_report_data":"inherit","upload_claim_data_host":"","upload_claim_data_port":"","upload_claim_data_username":"","upload_claim_data_password":"","upload_report_data_host":"","upload_report_data_port":"","upload_report_data_username":"","upload_report_data_password":""}}
+    [use_smtp] => 1
+    [smtp_host] => smtp.hostaccount.com
+    [smtp_port] => 587
+    [smtp_auth] => 1
+    [smtp_username] => kingstree24reports@kingstree.net
+    [smtp_password] => Tri@geN0w
+    [memo] => 
+    [use_mail_template] => 1
+    [name] => Kingstree Email Config with PDF
+    [mail_from] => kingstree24reports@kingstree.net
+    [mail_reply_to] => kingstree24reports@kingstree.net
+    [mail_template_id] => 42
+    [mail_include_attachment] => 1
+)
+
+[Thu, 06 Aug 2015 12:45:13 -0600] no custom state
+[Thu, 06 Aug 2015 12:45:13 -0600] ID: 3155
+[Thu, 06 Aug 2015 12:45:13 -0600] Array
+(
+    [id] => 5015
+    [parent] => 5008
+    [type] => 10
+    [title] => Dress Barn - Myrtle Beach
+    [code] => DBO0873
+    [client_code] => 0873
+    [fein] => 060812960
+    [address1] => Myrtle Beach Factory Stores
+    [address2] => 4633 Factory Store Boulevard, Suite B180
+    [city] => Myrtle Beach
+    [state] => SC
+    [zip] => 29579
+    [phone] => (551) 777-6700
+    [work_status_fax] => Patricia.Roughgarden@AscenaRetail.com
+    [org_type] => 2
+    [corporate_location] => 1796
+    [nature_of_business] => Family Clothing Store
+    [distribution_mode] => 3
+    [epdf_froi] => 1
+    [send_to_custom_state] => 0
+    [custom_state_field] => employer_location_state
+    [custom_froi_state] => 
+    [test_email] => ryan@claimwire.com
+    [test_fax] => 
+    [test_ftp] => 
+    [test_ftp_user] => 
+    [test_ftp_pass] => 
+    [smtp_config_id] => 6
+    [mail_config_id] => 23
+    [froi_link_mail_config_id] => 22
+    [batch_email] => 1
+    [subsequent_mail_config_id] => 0
+    [batch_mail_config_id] => 39
+    [batch_subsequent_mail_config_id] => 31
+    [status_upon_import] => 1
+    [imported_timestamp] => 0000-00-00 00:00:00
+    [notes] => 
+    [current_policy_number] => LDC4042557
+    [assigned_phone_number] => 855-296-6116
+    [date_added] => 2015-07-29 04:16:28
+    [provider_notice_notes] => 
+    [mask_ssn] => FOUR
+    [sic] => 5621
+    [naics] => 44814001
+    [anual_avr_employees] => 
+    [total_empl_hours_last_year] => 
+    [speek_nurse_required] => 0
+    [reports_url] => 
+    [report_conf] => {"get_claim_billing_info_from":"tpa","sftp":{"upload_claim_data":"inherit","upload_report_data":"inherit","upload_claim_data_host":"","upload_claim_data_port":"","upload_claim_data_username":"","upload_claim_data_password":"","upload_report_data_host":"","upload_report_data_port":"","upload_report_data_username":"","upload_report_data_password":""}}
+    [use_smtp] => 1
+    [smtp_host] => smtp.hostaccount.com
+    [smtp_port] => 587
+    [smtp_auth] => 1
+    [smtp_username] => kingstree24reports@kingstree.net
+    [smtp_password] => Tri@geN0w
+    [memo] => 
+    [use_mail_template] => 1
+    [name] => Kingstree Email Config with PDF
+    [mail_from] => kingstree24reports@kingstree.net
+    [mail_reply_to] => kingstree24reports@kingstree.net
+    [mail_template_id] => 42
+    [mail_include_attachment] => 1
+)
+
+[Thu, 06 Aug 2015 12:45:13 -0600] no custom state

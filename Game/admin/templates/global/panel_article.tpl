@@ -1,0 +1,1 @@
+<article>{include file="global/article.tpl"}</article>

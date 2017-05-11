@@ -1,0 +1,54 @@
+<h2><a href="?cat=guidelines" style="text-decoration: none;" > Guidelines </a> > Medical Advices</h2>
+<ul class="snav">
+	<li><a href="?cat=advices" >Advices List</a></li>
+    <li><a href="?cat=advices&amp;action=add&amp;id=999999" class="sel"><img src="interface/icons/add.gif" alt="add" align="absmiddle" /> Add Advice </a></li>
+</ul>
+<h3>Medical Advices</h3><br />
+{include file="global/message.tpl"}
+<form action="" method="post">
+<fieldset>
+      <table width="50%" cellpadding="3" cellspacing="0" border="0" class="std">
+		<tr class='tble_header'>
+            <td width="25%">Advice</td>
+            <td><textarea name="advice[advice]" class="in" rows="5" style="width:93%">{$t.advice|escape:'html'}</textarea></td>
+		</tr>
+		<tr>
+            <td>Severity</td>
+            <td>
+			<select name="advice[severity]" class="sl">
+			<option value=""> Select Severity </option>
+			{foreach from=$severitylist item=item}
+				<option value='{$item.id}'> {$item.title} </option>
+			{/foreach}
+			</select>
+			</td>
+		</tr>
+		<tr>
+            <td>Guideline</td>
+            <td>
+			<select name="advice[guideline_id]" class="sl">
+			<option value=""> Select Guideline </option>
+			{foreach from=$guidelinelist item=itemg}
+				<option value='{$itemg.id}'> {$itemg.title} </option>
+			{/foreach}
+			</select>
+			</td>
+		</tr>
+        <tr>
+            <td>Status</td>
+            <td>
+			<select name="advice[status]" class="sl">
+				<option value='y' {if $t.status == 'y'}selected='selected'{/if}> Active </option>
+				<option value='n' {if $t.status == 'n'}selected='selected'{/if}> Inactive </option>
+			</select>
+			</td>
+		</tr>
+		<tr>
+		<td> &nbsp; </td>
+		<td>
+			  <input type="submit" name="advice[save]" value="Save Changes" class="bt fixed100" />
+		</td>
+      </tr>
+      </table>
+</fieldset>
+</form>
